@@ -1,6 +1,5 @@
 # Apple-Account-Creator
 
+https://imgur.com/lmM3E6Y
 
-
-<img src="https://imgur.com/lmM3E6Y" height="42" width="42">
-![Image](https://imgur.com/lmM3E6Y)
+![Imgur Image](https://imgur.com/lmM3E6Y.jpg)
