@@ -2,4 +2,4 @@
 
 
 
-<img src="https://imgur.com/lmM3E6Y" alt="Smiley face" height="42" width="42">
+<img src="https://imgur.com/lmM3E6Y" height="42" width="42">
