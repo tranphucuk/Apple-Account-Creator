@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EBEBA165-7BAF-44F4-A057-5FF4D18E393A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Apple_Accounts_Creator</RootNamespace>
+    <AssemblyName>Apple Accounts Creator</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aioseoservice, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Aioseoservice.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoItX3.Assembly">
+      <HintPath>..\..\Ngay 36\lib\AutoItX3.Assembly.dll</HintPath>
+    </Reference>
+    <Reference Include="Brotli.NET">
+      <HintPath>..\..\Ngay 36\lib\Brotli.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilkatDotNet4">
+      <HintPath>..\..\Ngay 36\lib\ChilkatDotNet4.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.BonusSkins.v17.1" />
+    <Reference Include="DevExpress.Data.v17.1" />
+    <Reference Include="DevExpress.Images.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.1.Core" />
+    <Reference Include="DevExpress.RichEdit.v17.1.Core, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.1" />
+    <Reference Include="DevExpress.XtraBars.v17.1" />
+    <Reference Include="DevExpress.Sparkline.v17.1.Core" />
+    <Reference Include="DevExpress.XtraEditors.v17.1" />
+    <Reference Include="DevExpress.XtraGrid.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v17.1, Version=17.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FoxLearn.License">
+      <HintPath>..\..\Library\lib\FoxLearn.License.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.6.15.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.6.15\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>..\..\Ngay 36\lib\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OmegaLib">
+      <HintPath>..\..\Ngay 36\lib\OmegaLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="thanhps42">
+      <HintPath>..\..\Ngay 36\lib\thanhps42.dll</HintPath>
+    </Reference>
+    <Reference Include="thanhps42.BvSsh">
+      <HintPath>..\..\Ngay 36\lib\thanhps42.BvSsh.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\CreateAccounts.cs" />
+    <Compile Include="Home\EmailRegister.cs" />
+    <Compile Include="Home\RegisterInfo.cs" />
+    <Compile Include="Home\HomeModules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Home\HomeModules.Designer.cs">
+      <DependentUpon>HomeModules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home\TaskStartInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register\AppleAccount.cs" />
+    <Compile Include="Register\AppleBootDAta.cs" />
+    <Compile Include="Register\CaptchaInfo.cs" />
+    <Compile Include="Register\CaptchaManager.cs" />
+    <Compile Include="Register\CaptchaPayLoad.cs" />
+    <Compile Include="Register\InfoRegister.cs" />
+    <Compile Include="Register\RegisterMulti.cs" />
+    <Compile Include="Register\Verifycation.cs" />
+    <Compile Include="Settings\Referrer\ReferrerController.cs" />
+    <Compile Include="Settings\Referrer\ReferrerModules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings\Referrer\ReferrerModules.Designer.cs">
+      <DependentUpon>ReferrerModules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\SettingModels.cs" />
+    <Compile Include="Settings\SSH\DataController.cs" />
+    <Compile Include="Settings\SSH\GridviewExtension.cs" />
+    <Compile Include="Settings\SSH\SshController.cs" />
+    <Compile Include="Settings\SSH\SshItems.cs" />
+    <Compile Include="Settings\SSH\SshModules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings\SSH\SshModules.Designer.cs">
+      <DependentUpon>SshModules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\User Agent\UserAgentController.cs" />
+    <Compile Include="Settings\User Agent\UAModules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings\User Agent\UAModules.Designer.cs">
+      <DependentUpon>UAModules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Static.cs" />
+    <Compile Include="WaitForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home\HomeModules.resx">
+      <DependentUpon>HomeModules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Settings\Referrer\ReferrerModules.resx">
+      <DependentUpon>ReferrerModules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\SSH\SshModules.resx">
+      <DependentUpon>SshModules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\User Agent\UAModules.resx">
+      <DependentUpon>UAModules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\home-icon x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\home-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\network-local-icon x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Global-Network-icon x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Link-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\import-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Stop-red-icon x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start-icon x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Link-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Global-Network-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Devices-network-wireless-connected-100-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\network-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Places-network-server-database-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Places-network-server-database-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AutoItX3Lib">
+      <Guid>{F8937E53-D444-4E71-9275-35B64210CC3B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\add-icon x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\Files-Edit-file-icon  x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\img\document-add-iconx32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
